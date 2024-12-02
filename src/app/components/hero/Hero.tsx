@@ -14,8 +14,7 @@ const Hero = () => {
                         autoPlay
                         muted
                         loop
-                        src="heroVideo.mp4"
-                    >
+                        src="heroVideo.mp4">
                         <source
                             className="w-full h-auto object-cover "
                             src="heroVideo.mp4"

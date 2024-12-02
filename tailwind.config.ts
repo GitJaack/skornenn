@@ -19,12 +19,13 @@ export default {
             backgroundImage: {
                 "custom-gradient":
                     "linear-gradient(0deg, hsla(0, 0%, 100%, 0.88) 88%, hsla(0, 0%, 100%, 0))",
-                "ice-effect":
-                    "radial-gradient(circle, #fff 51%, hsla(0, 0%, 100%, .204) 100%);",
+                "radial-white":
+                    "radial-gradient(ellipse at center, #fff 55%,hsla(0,0%,100%,.204) 100%)",
             },
             boxShadow: {
-                articleCard: "0 4px 20px 0 rgba(108, 131, 154, 0.2)",
-                articleCardHover: "0 0 20px 0px rgba(135, 206, 250, .5)",
+                articleCard: "-1px 4px 20px 0 rgba(108, 131, 154, 0.2)",
+                articleCardHover: "-1px 4px 20px 0 rgba(135, 206, 250, .5)",
+                buttonHover: "0 0 25px 10px rgba(135, 206, 250, 0.5)",
             },
         },
     },
