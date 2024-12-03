@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
                 {/* Hero Logo */}
                 <img
-                    className="w-[900px] h-[205px]"
+                    className="w-[900px] h-[205px] animate-fade-in"
                     src="logo.png"
                     alt="Logo principal"
                 />

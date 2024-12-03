@@ -27,6 +27,20 @@ export default {
                 articleCardHover: "-1px 4px 20px 0 rgba(135, 206, 250, .5)",
                 buttonHover: "0 0 25px 10px rgba(135, 206, 250, 0.5)",
             },
+            keyframes: {
+                slideDown: {
+                    "0%": {transform: "translateY(-100%)", opacity: "0"},
+                    "100%": {transform: "translateY(0)", opacity: "1"},
+                },
+                "fade-in": {
+                    "0%": {opacity: "0"},
+                    "100%": {opacity: "1"},
+                },
+            },
+            animation: {
+                slideDown: "slideDown 0.5s ease-out forwards",
+                "fade-in": "fade-in 1.5s ease-in-out",
+            },
         },
     },
     plugins: [],
