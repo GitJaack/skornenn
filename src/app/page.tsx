@@ -4,7 +4,8 @@ import Section from "./components/section/Section";
 import Intro from "./components/introduction/Introduction";
 import Presentation from "./components/presentation/Presentation";
 import Carousel from "./components/carousel/Carousel";
-
+import OtherProducts from "./components/otherProducts/OtherProducts";
+import Discover from "./components/discover/Discover";
 export default function Home() {
     return (
         <>
@@ -14,6 +15,8 @@ export default function Home() {
             <Intro />
             <Presentation />
             <Carousel />
+            <OtherProducts />
+            <Discover />
         </>
     );
 }
